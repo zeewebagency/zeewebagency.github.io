@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "export": "next build"
   },
   "dependencies": {
     "@types/bcryptjs": "^2.4.6",

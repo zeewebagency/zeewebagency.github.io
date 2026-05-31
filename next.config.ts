@@ -5,8 +5,6 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/zeewebagency.github.io/",
-  assetPrefix: "/zeewebagency.github.io/",
 };
 
 export default nextConfig;
