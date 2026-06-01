@@ -44,7 +44,7 @@ export default function Contact() {
                                     <p>We'll review your project and get back to you within 24 hours.</p>
                                 </div>
                             ) : (
-                                <form onSubmit={submit}>
+                                <form onSubmit={submit} data-netlify="true" name="contact">
                                     <div className="form-row">
                                         <div className="form-group"><label>Your Name *</label><input required value={form.name} onChange={e => setForm(f => ({ ...f, name: e.target.value }))} placeholder="John Doe" /></div>
                                         <div className="form-group"><label>Email Address *</label><input required type="email" value={form.email} onChange={e => setForm(f => ({ ...f, email: e.target.value }))} placeholder="john@company.com" /></div>
