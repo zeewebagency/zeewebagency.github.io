@@ -101,7 +101,7 @@ export default function Contact() {
                         <div className="contact-sidebar">
                             <div className="contact-info reveal" data-delay="100">
                                 <h3>Other ways<br />to reach us</h3>
-                                {[{ icon: "📧", label: "Email", val: <a href="mailto:hello@ZeeWeb.io">hello@ZeeWeb.io</a> }, { icon: "📞", label: "Phone", val: <a href="tel:+15551234567">+1 (555) 123-4567</a> }, { icon: "🕐", label: "Response Time", val: <span>Within 24 hours, guaranteed</span> }, { icon: "🌍", label: "Based In", val: <span>Remote-first, global clients</span> }].map(m => (
+                                {[{ icon: "📧", label: "Email", val: <a href="mailto:zeewebagency@gmail.com">zeewebagency@gmail.com</a> }, { icon: "📞", label: "Phone", val: <a href="tel:+92 301 3360912">+92 301 3360912</a> }, { icon: "🕐", label: "Response Time", val: <span>Within 24 hours, guaranteed</span> }, { icon: "🌍", label: "Based In", val: <span>Remote-first, global clients</span> }].map(m => (
                                     <div key={m.label} className="contact-method">
                                         <div className="cm-icon">{m.icon}</div>
                                         <div><span className="cm-label">{m.label}</span>{m.val}</div>
